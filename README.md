@@ -29,8 +29,8 @@ Nossa paleta de cores está totalmente alinhada com a cores que escolhemos para 
 ## Como rodar o projeto?
 Clone o nosso projeto e abra a index.html no seu navegador e voilá!
 
-## Quer acessar aqui? Vem pra cá!
-Toma ai o link: [https://coolors.co/c62e65-2f1847-3cacae-ffffff](https://coolors.co/c62e65-2f1847-3cacae-ffffff)
+## Quer acessar a melhor PWA do SheHacks? Vem pra cá!
+Toma ai o link: [https://vanessa-nascimento.github.io/gineapp/](https://vanessa-nascimento.github.io/gineapp/)
 
 
 ## Quem que fez esse arraso?
