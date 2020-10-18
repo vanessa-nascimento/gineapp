@@ -30,7 +30,7 @@ Nossa paleta de cores está totalmente alinhada com a cores que escolhemos para 
 Clone o nosso projeto e abra a index.html no seu navegador e voilá!
 
 ## Quer acessar a melhor PWA do SheHacks? Vem pra cá!
-Toma ai o link: [https://vanessa-nascimento.github.io/gineapp/](https://vanessa-nascimento.github.io/gineapp/)
+Toma ai o link, e olha no celular também!! Se vc quiser usar a PWA, só ir nos três pontinhos do navegador do celular e clicar em Adicionar a Tela Inicial que você vai ter um icone maravilhoso de aplicativo que vai direto para a nossa PWA: [https://vanessa-nascimento.github.io/gineapp/](https://vanessa-nascimento.github.io/gineapp/)
 
 
 ## Quem que fez esse arraso?
