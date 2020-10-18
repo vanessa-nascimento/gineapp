@@ -1,8 +1,8 @@
-var CACHE_NAME = 'static-v1';
+importScripts('/cache-polyfill.js');
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(function (cache) {
+    caches.open(airhorner).then(function (cache) {
       return cache.addAll([
         '/index.html',
         '/cadastro.html',
@@ -19,7 +19,7 @@ self.addEventListener('activate', function activator(event) {
     caches.keys().then(function (keys) {
       return Promise.all(keys
         .filter(function (key) {
-          return key.indexOf(CACHE_NAME) !== 0;
+          return key.indexOf(airhorner) !== 0;
         })
         .map(function (key) {
           return caches.delete(key);
