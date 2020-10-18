@@ -1,4 +1,4 @@
-const successCadastro = false;
+document.getElementById('alerta-erro').style.display = 'none';
 
 function getValueForm(form) {
 
@@ -43,6 +43,23 @@ function registrarUsuario() {
         );
       }
 
-    window.redire
+      window.location.href = "index.html";
+}
 
+function cadastroExiste(){
+    var form = document.querySelector("#form-login");
+    
+    const login = form.login.value;
+    const senha = form.senha.value;
+
+
+    JSON.parse(localStorage.getItem('items')).find((e) => {
+        if(e.email == login && e.senha == senha){
+            window.location.href = "app-inicial.html";
+            document.getElementById('alerta-erro').style.display = 'none';
+        }
+        else{
+            document.getElementById('alerta-erro').style.display = 'block';
+        }
+    });
 }

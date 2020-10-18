@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+body {
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+}
+
 .fundoRoxo {
     background-color: #2F1847;
-    width: 100vw;  
+    width: 100%;  
     height: 100%;
 }
 
@@ -14,7 +18,7 @@
 }
 
 .final {
-    height: 300px;
+    height: 50px;
 }
 
 .logoApp{
@@ -37,7 +41,7 @@
 .menuAbaixo{
     background-color: #2F1847;
     width: 100vw;
-    height: 95px;
+    height: 70px;
 }
 
 .logoMenu{
@@ -78,7 +82,6 @@
 }
 
 .textoRosa{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -87,7 +90,6 @@
 }
 
 .textoRoxo{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -97,7 +99,6 @@
 }
 
 .textoAzul{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -107,7 +108,7 @@
 }
 
 .textoBranco{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
+    
     display: flex;
     text-align: center;
     justify-content: center;
@@ -117,19 +118,12 @@
 }
 
 .textoBrancoMenu{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: larger;
+    font-family: 'Sanchez', serif;
+    font-size: 25px;
     color: #FFFFFF;
-    margin-top: -110px;
-    z-index: 100;
-    margin-left: -270px;
 }
 
 .textoRosaInicial{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -140,7 +134,6 @@
 }
 
 .textoRoxoInicial{
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -156,7 +149,6 @@
 
 ::placeholder{
     color: #FFFFFF;
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     border: none;
 }
 
@@ -199,7 +191,6 @@
 .botaoEntrar {
     background-color: #3CACAE;
     color: #FFFFFF;
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     border: none;
     border-radius: 100px;
     text-align: center;
@@ -211,7 +202,6 @@
 .botaoPedirAjuda{
     background-color: #2F1847;
     color: #FFFFFF;
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     border: none;
     border-width: 2px;
     text-align: center;
@@ -223,7 +213,6 @@
     background-color: #2F1847;
     border-color: #3CACAE;
     color: #3CACAE;
-    font-family: Ubuntu, 'Open Sans', sans-serif;
     border: none;
     border-radius: 100px;
     border-style: solid;
@@ -247,7 +236,7 @@
 
 .manual {
     width: 200px;
-    height: 50px;
+    padding: 10px 0;
 }
 
 .botaoCadastro:hover {
@@ -370,16 +359,6 @@
         align-items: center;
     }
 
-    .posicaoLogoMenu{
-        margin-top: -50px;
-        flex-direction: row;
-    }
-
-    .posicaoSaida{
-        margin-top: -45px;
-       
-    }
-
 
 /* ------- cadastro.html ------------ */
 
@@ -411,7 +390,7 @@ label {
 
 .form-control:focus {
     border-radius: 0;
-    border: none;
+    border: nonee;
     border-bottom: 2px solid #2F1847;
     box-shadow: none;
 }
@@ -438,16 +417,28 @@ label {
     font-size: 14px;
 }
 
-.btn-voltar:hover, .btn-voltar:focus, .btn-voltar:active{
+.btn-voltar:hover, .btn-voltar:focus, .btn-voltar:active, .botaoCadastro:hover, .botaoCadastro:focus, .botaoCadastro:active{
     background: #3CACAE !important;
     border-color: #3CACAE !important;
     color: #ffffff !important;
     box-shadow: none;
 }
 
-.btn-enviar:hover, .btn-enviar:focus, .btn-enviar:active{
+.btn-enviar:hover, .btn-enviar:focus, .btn-enviar:active, .botaoEntrar:hover, .botaoEntrar:focus, .botaoEntrar:active {
     background: #349698 !important;
     border-color: #349698 !important;
     color: #ffffff !important;
     box-shadow: none;
 }
+
+#form-login .form-group .form-control {
+    background: transparent;
+    border-bottom: 2px solid #C62E65;
+    color: #ffffff !important;
+}
+
+#form-login .form-control::placeholder{
+    color: #ffffff;
+    text-align: center;
+}
+
