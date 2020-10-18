@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+.h-logo {
+    background: #2F1847;
+}
+
+.c-formulario {
+
+}
+
+.c-formulario .c-title {
+    font-family: 'Sanchez', serif;
+    font-weight: 700;
+    color: #2F1847;
+}
+
+label {
+    display: none;
+}
+
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #2F1847;
+    color: #2F1847 !important;
+}
+
+.form-control:focus {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #2F1847;
+    box-shadow: none;
+}
+
+.form-control::placeholder, select.form-control {
+    color: #2F1847;
+}
+
+.btn-enviar {
+    background: #3CACAE;
+    border: 2px solid #3CACAE;
+    border-radius: 25px;
+    padding: 10px 35px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.btn-voltar {
+    border: 2px solid #3CACAE;
+    border-radius: 25px;
+    padding: 5px 0;
+    width: 150px;
+    color: #3CACAE;
+    font-size: 14px;
+}
+
+.btn-voltar:hover, .btn-voltar:focus, .btn-voltar:active{
+    background: #3CACAE !important;
+    border-color: #3CACAE !important;
+    color: #ffffff !important;
+    box-shadow: none;
+}
+
+.btn-enviar:hover, .btn-enviar:focus, .btn-enviar:active{
+    background: #349698 !important;
+    border-color: #349698 !important;
+    color: #ffffff !important;
+    box-shadow: none;
+}
