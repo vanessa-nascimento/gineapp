@@ -1,12 +1,396 @@
 @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.fundoRoxo {
+    background-color: #2F1847;
+    width: 100vw;  
+    height: 100%;
+}
+
+.fundoBranco {
+    background-color: #FFFFFF;
+    width: 100vw;  
+    height: 100%;
+}
+
+.final {
+    height: 300px;
+}
+
+.logoApp{
+    background-image: url('../img/gineapp-fundo-escuro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 350px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.menuTopo{
+    background-color: #2F1847;
+    width: 100vw;
+    height: 135px;
+    margin-bottom: 50px;
+}
+
+.menuAbaixo{
+    background-color: #2F1847;
+    width: 100vw;
+    height: 95px;
+}
+
+.logoMenu{
+    background-image: url('../img/GineApp_-_Logotipo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width:180;
+    height:190;
+    margin-top: -50px;
+}
+
+.iconeSaida{
+    background-image: url('../img/paginainicial/saida.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50;
+    height:50;
+    margin-bottom: 70px;
+}
+
+/* -------------------------------------- */
+
+
+/* ------------- Genéricos ------------- */
+
+.seção {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seçãoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoRosa{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #C62E65;
+}
+
+.textoRoxo{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #2F1847;
+    margin-bottom: 10px;
+}
+
+.textoAzul{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #3CACAE;
+    margin-bottom: 10px;
+}
+
+.textoBranco{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.textoBrancoMenu{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #FFFFFF;
+    margin-top: -110px;
+    z-index: 100;
+    margin-left: -270px;
+}
+
+.textoRosaInicial{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #C62E65;
+    margin-bottom: 40px;
+    width: 120px;
+}
+
+.textoRoxoInicial{
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    color: #2F1847;
+    margin-bottom: 40px;
+    width: 120px;
+}
+
+.icone{
+    align-items: center;
+}
+
+::placeholder{
+    color: #FFFFFF;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
+}
+
+#formulario input.login{
+    background-color: #2F1847;
+    border: none;
+    text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+#formulario input.senha{
+    background-color: #2F1847;
+    border: none;
+    text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.linha{
+    background-color: #C62E65;
+    width: 200px;
+    height: 2px;
+    align-items: center;
+}
+
+
+/* -------------------------------------- */
+
+/* ------------- BOTÕES ------------- */
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoEntrar {
+    background-color: #3CACAE;
+    color: #FFFFFF;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.botaoPedirAjuda{
+    background-color: #2F1847;
+    color: #FFFFFF;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
+    border-width: 2px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.botaoCadastro {
+    background-color: #2F1847;
+    border-color: #3CACAE;
+    color: #3CACAE;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.botoes .icones {
+    width: 100px;
+}
+
+.botoes .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.manual {
+    width: 200px;
+    height: 50px;
+}
+
+.botaoCadastro:hover {
+    cursor: pointer;
+    background-color:  #26123b;
+}
+
+.botaoEntrar:hover {
+    cursor: pointer;
+    background-color:#298385;
+}
+
+/* ---------------------------------- */
+
+@media (min-width: 768px) {
+
+    .manual {
+        width: 150px;
+    }
+
+    .botoes .icones {
+        width: 150px;
+        height: 150px;
+    }
+
+    .botoes {
+        flex-direction: row;
+    }
+
+    #recuo {
+        margin-top: 30px;
+    }
+
+    .seção {
+        flex-direction: column;
+    }
+
+}
+
+    @media (min-width: 1080px) {
+
+        .seção {
+            flex-direction: column;
+        }
+
+        .textoRosa{
+            margin-bottom: -10px;
+        }
+
+        .textoRoxo{
+            margin-bottom: -10px;
+        }
+        
+        .textoAzul{
+            margin-bottom: -10px;
+        }
+        
+        .textoBranco{
+            margin-bottom: -10px;
+        }
+
+        .botaoEntrar {
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+        
+        .botaoCadastro {
+            margin-top: -10px;
+        }
+    }
+
+    
+    
+    
+        
+
+/* ----------pagina inicial------------ */
+
+    .calendario{
+        background-image: url('../img/paginainicial/exame.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .relatos{
+        background-image: url('../img/paginainicial/medico.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .chat{
+        background-image: url('../img/paginainicial/batepapo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 300px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .artigos{
+        background-image: url('../img/paginainicial/jornalzinho.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        width: 300px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .posicao{
+        align-items: center;
+    }
+
+    .posicaoLogoMenu{
+        margin-top: -50px;
+        flex-direction: row;
+    }
+
+    .posicaoSaida{
+        margin-top: -45px;
+       
+    }
+
+
+/* ------- cadastro.html ------------ */
 
 .h-logo {
     background: #2F1847;
 }
 
-.c-formulario {
-
+.c-formulario{
+    margin-bottom: 50px;
 }
+
 
 .c-formulario .c-title {
     font-family: 'Sanchez', serif;
@@ -48,7 +432,7 @@ label {
 .btn-voltar {
     border: 2px solid #3CACAE;
     border-radius: 25px;
-    padding: 5px 0;
+    padding: 10px 0;
     width: 150px;
     color: #3CACAE;
     font-size: 14px;
