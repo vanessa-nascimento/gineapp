@@ -3,7 +3,7 @@
 <p align="center">
     <img src="./assets/images/logo/gineapp-colored.jpg">
 </p>
-**GineApp** é uma aplicação simples e robusta feita em HTML, CSS e VanillaJS, pelo time **Ada** do **SheHacks 2020**. Como o GineApp futuramente se tornará numa plataforma somente para dispositivos móveis, o site foi desenvolvido com olhos para o mobile e usando **PWA**! (mas nada impede de usar o desktop)
+GineApp é uma aplicação simples e robusta feita em HTML, CSS e VanillaJS, pelo time Ada do SheHacks 2020. Como o GineApp futuramente se tornará numa plataforma somente para dispositivos móveis, o site foi desenvolvido com olhos para o mobile e usando PWA! (mas nada impede de usar o desktop)
 
 Nesse projeto está composto por nossas três primeiras páginas iniciais:
   - Login
