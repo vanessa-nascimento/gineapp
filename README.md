@@ -33,7 +33,7 @@ Clone o nosso projeto e abra a index.html no seu navegador e voilá!
 Toma ai o link, e olha no celular também!! Se vc quiser usar a PWA, só ir nos três pontinhos do navegador do celular e clicar em Adicionar a Tela Inicial, que aí você vai ter um icone maravilhoso de aplicativo que vai direto para a nossa PWA: [https://vanessa-nascimento.github.io/gineapp/](https://vanessa-nascimento.github.io/gineapp/)
 
 ## Como acessar o documento?
-Há fum documento chamado TimeAda-DOCUMENTO.pdf, nele se encontra as infos.
+Há um documento chamado TimeAda-DOCUMENTO.pdf, nele se encontra as infos.
 
 ## Link do youtube do nosso projeto
 Aqui tem um vídeo maravilhosooo contando mais sobre o nosso projeto: [https://youtu.be/NEum-E3SyAk](https://youtu.be/NEum-E3SyAk) 
