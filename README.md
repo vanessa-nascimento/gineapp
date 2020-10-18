@@ -1,6 +1,6 @@
-# GineApp
-
+# GineApp - A agenda que te acolhe e te ajuda
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 <img src="./assets/images/logo/gineapp.png">
 
 **GineApp** é uma aplicação simples e robusta feita em HTML, CSS e VanillaJS, pelo time **Ada** do **SheHacks 2020**. Como o GineApp futuramente se tornará numa plataforma somente para dispositivos móveis, o site foi desenvolvido com olhos para o mobile e usando **PWA**! (mas nada impede de usar o desktop)
